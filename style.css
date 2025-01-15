@@ -90,7 +90,7 @@ img {
 #projects > div {
   display: flex;
   flex-direction: column;
-  width: calc(33.33% - 20px);
+  width: 48%;
   margin-bottom: 20px;
   background-color: white; 
   padding: 15px;
@@ -99,12 +99,12 @@ img {
 }
 
 #projects img {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 768px) {
   #projects > div {
-    width: calc(33.33% - 20px);
+    width: 100%;
   }
 }
 
