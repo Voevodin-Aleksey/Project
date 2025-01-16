@@ -87,7 +87,8 @@ img {
 }
 
 #projects > div {
-  display: flex;
+ display: grid;
+  place-items: center;
   flex-direction: column;
   width: 48%;
   margin-bottom: 20px;
@@ -101,7 +102,7 @@ img {
   margin-bottom: 10px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 752px) {
   #projects > div {
     width: 100%;
   }
