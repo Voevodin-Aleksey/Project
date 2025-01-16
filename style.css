@@ -108,7 +108,7 @@ img {
 
 @media (max-width: 768px) {
   #projects > div {
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -141,4 +141,9 @@ td img {
 
 main {
     padding: 20px;
+}
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.2rem;
+    }
 }
