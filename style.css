@@ -191,4 +191,24 @@ main {
     background-color: #fff;
     scroll-snap-align: start;
   }
+
+  #projects > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 65px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    max-width: 170%;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    width: 300px;
+    height: auto;
+  }
 }
