@@ -48,10 +48,10 @@ a:hover {
   text-decoration: underline;
 }
 .scrollable-list {
-    display: flex;
+   padding: 15px;
     overflow-x: auto;
-    gap: 15px;
-  white-space: nowrap;
+    white-space: nowrap;
+    display: flex;
 }
 
 .scrollable-list ul {
