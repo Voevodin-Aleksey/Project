@@ -35,6 +35,28 @@ section {
   padding: 20px;
 }
 
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  scroll-snap-align: start;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
 ul {
   list-style: none;
   padding: 0;
