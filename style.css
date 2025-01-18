@@ -28,6 +28,7 @@ h2 {
 
 .h2-header {
     font-size: 1.8em;
+    text-align: center;
     margin-top: 2em;
     color: #222;
     border-bottom: 2px solid #ddd;
